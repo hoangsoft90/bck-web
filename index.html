@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)https://bck.haibasoft.com/apps/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>Plugin thanh toán ngân hàng | BCK</title>
+		<meta keyword="plugin thanh toan momo, viettelpay, vietcombank, mb..">
+		<meta description="BCK là plugin thanh toán MOMO, ViettelPay, VNPay; Ngân hàng Vietcombank, Techcombank, MB.. dành cho khách hàng cá nhân.">
+		<link href="./bck/css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="bck/styles.css">
+		<link rel="stylesheet" href="bck/animate.min.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+	
+<style>
+.float-contact {
+position: fixed;
+bottom: 80px;
+right: 20px;
+z-index: 9999999999999999999999;
+}
+.chat-zalo {
+background: url(bck/zalo_icon.png);
+background-repeat: no-repeat;
+background-size: 60px;
+padding: 30px;
+color: white;
+display: block;
+margin-bottom: 15px;
+border: 0;
+cursor: pointer;
+}
+.chat-face {
+background: url(bck/fb-icon.png);
+background-repeat: no-repeat;
+background-size: 60px;
+padding: 30px;
+color: white;
+display: block;
+margin-bottom: 30px;
+border: 0;
+cursor: pointer;
+}
+.float-contact .hotline {
+background: url(bck/icon_call.gif);
+background-repeat: no-repeat;
+background-size: 50px;
+padding: 26px;
+color: white;
+display: block;
+margin-bottom: 15px;
+border: 0;
+cursor: pointer;
+}
+.chat-zalo a, .chat-face a, .hotline a {
+font-size: 15px;
+color: white;
+font-weight: 400;
+text-transform: none;
+line-height: 0;
+border: 0;
+cursor: pointer;
+}
+@media (min-width: 549px){
+.float-contact{
+
+}
+}
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2RFK3EL357"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2RFK3EL357');
+</script>
+</head>
+<body>
+
+    <div class="main">
+        <div class="header">
+            <div class="content">
+                <div class="header1">
+                    <div class="fl">
+                        <a href="https://bck.haibasoft.com/"><img src="./bck/logo.png"></a>
+                    </div>
+                    <div class="fr menu">
+							<a class="menu-home" href="https://bck.haibasoft.com">Trang chủ</a>
+							<a href="https://bck.haibasoft.com/#banggia">Bảng giá</a>
+							<a target="_blank" href="https://wordpress.org/plugins/bck-tu-dong-xac-nhan-thanh-toan-chuyen-khoan-ngan-hang/">Plugin</a>
+							<a href="https://bck.haibasoft.com/help.html">Hướng dẫn</a>
+							<a href="https://bck.haibasoft.com/policy.html">Điều khoản sử dụng</a>
+					</div>
+                </div>
+                <div class="clear"></div>
+                <div class="header2" id="sliderHeader">
+                    <div class="fl wow slideInLeft animated" data-wow-duration="0s" style="visibility: visible; animation-duration: 0s; animation-name: slideInLeft;">
+                        <img src="./bck/app1.png">
+                    </div>
+                    <div class="fr">
+                        <h1 class="wow bounceInDown animated" data-wow-duration="0s" style="visibility: visible; animation-duration: 0s; animation-name: bounceInDown;">Bỏ túi giải pháp <br>tích hợp thanh toán online</h1>
+                        <p class="text wow tada animated" style="visibility: visible; animation-name: tada;">
+                            <strong>BCK</strong> là ứng dụng tích hợp thanh toán MOMO, ViettelPay, VNPay, Vietcombank, Vietinbank, Techcombank, MB.. siêu dễ !<br>
+                            
+                        </p>
+                        <p style="padding: 20px;display:block;float:left">
+                            <a class="fr" href="https://play.google.com/store/apps/details?id=com.hoangweb.checkpay" target="_blank"><img src="./bck/googleplay.svg" width="210"></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+				<div class="area1" id="giamgia">
+						<div class="fl width50 wow slideInLeft animated" data-wow-duration="0s" style="visibility: visible; animation-duration: 0s; animation-name: slideInLeft;">
+								<div class="body text-right">
+										<h2 class="title"> Bảo mật tài khoản <br> An tâm tuyệt đối</h2>
+										<p>Không yêu cầu nhập user/pass hay mã OTP, an toàn tuyệt đối.<br> 
+										Chức năng của BCK là đọc thông báo biến động số dư theo tiền tố website bạn cấu hình,<br>
+										để xác nhận thanh toán đơn hàng tự động qua webhook.<br><br>
+										<span style="color:red;font-style: italic"><b>**Cảnh báo! Không đăng nhập user/pass/OTP cho bất cứ dịch vụ nào !<br>
+										Ngân hàng luôn khuyến cáo vì lộ thông tin và bị chiếm quyền truy cập tài khoản</b>.</span></p>
+								</div>
+						</div>
+						<div class="fr width50 wow bounceInRight animated" data-wow-duration="0s" style="visibility: visible; animation-duration: 0s; animation-name: bounceInRight;">
+								<img src="./bck/app2.png" alt="">
+						</div>
+						<div class="clear"></div>
+				</div>
+
+				<div class="area2" id="ganban">
+						<div class="fl width50 text-right wow bounceInLeft animated" data-wow-duration="0s" style="visibility: visible; animation-duration: 0s; animation-name: bounceInLeft;">
+								<img src="./bck/app3.png" alt="">
+						</div>
+						<div class="fr width50 wow slideInRight animated" data-wow-duration="0s" style="visibility: visible; animation-duration: 0s; animation-name: slideInRight;">
+								<div class="body text-left">
+										<h2 class="title">Hỗ trợ 24 ngân hàng<br>và 4 ví điện tử</h2>
+										<p>Ví MOMO, ViettelPay, VNPay, VinID, Vietcombank, Vietinbank <br>
+										Techcombank, MB, ACB, BIDV, Agribank, Sacombank, MSB, Cake..<br><br>
+										<span style="color:#019934"><b>Kiểm tra thanh toán và kích hoạt đơn hàng siêu nhanh (3 giây)<br>
+										xử lý đa luồng, không giới hạn số lượng giao dịch</b>.</span></p>
+								</div>
+						</div>
+						<div class="clear"></div>
+				</div>
+
+				<div class="area1" id="thongbao">
+						<div class="fl width50 wow slideInLeft animated" data-wow-duration="0s" style="visibility: visible; animation-duration: 0s; animation-name: slideInLeft;">
+								<div class="body text-right">
+										<h2 class="title">Quét mã QR kết nối<br>không giới hạn website</h2>
+										<p>Cài đặt plugin website WordPress và mở app BCK để quét mã QR <br>
+										kết nối các website của bạn. <br>
+										Nếu website tự code xem hướng dẫn <a target="_blank" href="https://huong-dan-bck.haibasoft.com/webhook"><u>tích hợp webhook</u></a><br><br>
+										<span style="color:#019934;font-weight:600;">Chỉ 1 chiếc điện thoại, bạn tích hợp thanh toán nhiều website.</span></p>
+								</div>
+						</div>
+						<div class="fr width50 wow bounceInRight animated" data-wow-duration="0s" style="visibility: visible; animation-duration: 0s; animation-name: bounceInRight;">
+								<img src="./bck/app4.png" alt="">
+						</div>
+						<div class="clear"></div>
+				</div> 
+
+<section class="area3 pricing py-5">
+  <div class="container" id="banggia">
+  <h2 class="title">Bảng giá</h2>
+  <div style="color:#fff; padding-bottom:40px">Hãy lựa chọn giải pháp phù hợp với nhu cầu của bạn và dùng thử miễn phí 3 ngày</div>
+    <div class="row">
+      <!-- Free Tier -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Trải nghiệm</h5>
+            <h6 class="card-price text-center">0<sup>đ</sup> <span class="period">3 ngày</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Không cần giấy phép kinh doanh</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Không cần nhập user/pass hay mã OTP, an toàn tuyệt đối !</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Hỗ trợ QR code tự nhập tiền và nội dung đơn hàng (API Vietqr.io)</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Hỗ trợ 40 ngân hàng và 4 ví điện tử</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Xác nhận thanh toán tự động & kích hoạt đơn hàng từ 1~5 giây</li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Plus Tier -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Ngắn hạn</h5>
+            <h6 class="card-price text-center">699,000<sup>đ</sup> <span class="period">6 tháng</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Không cần giấy phép kinh doanh</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Không cần nhập user/pass hay mã OTP, an toàn tuyệt đối !</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Hỗ trợ QR code tự nhập tiền và nội dung đơn hàng (API Vietqr.io)</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Hỗ trợ 40 ngân hàng và 4 ví điện tử</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Xác nhận thanh toán tự động & kích hoạt đơn hàng từ 1~5 giây</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Xử lý đa luồng, không giới hạn số lượng giao dịch</li>
+            </ul>
+            <div class="d-grid">
+              <a href="https://bck-pay.haibasoft.com/order" target="_blank" class="btn btn-primary text-uppercase">Đăng ký</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Pro Tier -->
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Dài hạn</h5>
+            <h6 class="card-price text-center">1,199,000<sup>đ</sup> <span class="period">1 năm</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Không cần giấy phép kinh doanh</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Không cần nhập user/pass hay mã OTP, an toàn tuyệt đối !</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Hỗ trợ QR code tự nhập tiền và nội dung đơn hàng (API Vietqr.io)</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Hỗ trợ 40 ngân hàng và 4 ví điện tử</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Xác nhận thanh toán tự động & kích hoạt đơn hàng từ 1~5 giây</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Xử lý đa luồng, không giới hạn số lượng giao dịch</li>
+            </ul>
+            <div class="d-grid">
+              <a href="https://bck-pay.haibasoft.com/order" target="_blank" class="btn btn-primary text-uppercase">Đăng ký</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+				<div class="footer">
+						<div class="content">
+								<p><a href="https://bck.haibasoft.com/" target="_blank"><img src="./bck/logofooter.png"></a></p>
+								<p>
+										<a class="item wow fadeInLeft animated" href="#" target="_blank" style="visibility: visible; animation-name: fadeInLeft;"><img src="./bck/youtube.png"></a>
+										<a class="item wow fadeInRight animated" href="https://www.facebook.com/pluginthanhtoan/" target="_blank" style="visibility: visible; animation-name: fadeInRight;"><img src="./bck/fb.png"></a>
+								</p>
+								<p>
+										<img src="./bck/icon-home.png">&nbsp;©2021 All rights reserved BCK Team - Hotline: 0868.292.303 - Email: <a href="emailto:haibasoftware@gmail.com">haibasoftware@gmail.com</a>
+								<br><br><a href="https://bck.haibasoft.com/policy.html">Điều khoản sử dụng</a> ★ <a target="_blank" href="https://bck.haibasoft.com/help.html">Hướng dẫn</a> ★ <a target="_blank" href="https://bck-agent.haibasoft.com/">Chương trình Afiiliate</a></p>
+								<p>
+										Một sản phẩm của <a href="http://haibasoft.com/" target="_blank">HaiBaSoft, Inc</a> 
+								</p>
+						</div>
+				</div>
+		</div>
+
+<div class="float-contact">
+<a target="_blank" href="https://www.facebook.com/pluginthanhtoan/"><button class="chat-face"></button></a>
+</div>
+	
+	<a href="https://chat.zalo.me/?phone=0868292303" id="linkzalo" target="_blank" rel="noopener noreferrer"><div id="fcta-zalo-tracking" class="fcta-zalo-mess">
+<span id="fcta-zalo-tracking">Chat hỗ trợ</span></div><div class="fcta-zalo-vi-tri-nut"><div id="fcta-zalo-tracking" class="fcta-zalo-nen-nut"><div id="fcta-zalo-tracking" class="fcta-zalo-ben-trong-nut"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460.1 436.6"><path fill="currentColor" class="st0" d="M82.6 380.9c-1.8-.8-3.1-1.7-1-3.5 1.3-1 2.7-1.9 4.1-2.8 13.1-8.5 25.4-17.8 33.5-31.5 6.8-11.4 5.7-18.1-2.8-26.5C69 269.2 48.2 212.5 58.6 145.5 64.5 107.7 81.8 75 107 46.6c15.2-17.2 33.3-31.1 53.1-42.7 1.2-.7 2.9-.9 3.1-2.7-.4-1-1.1-.7-1.7-.7-33.7 0-67.4-.7-101 .2C28.3 1.7.5 26.6.6 62.3c.2 104.3 0 208.6 0 313 0 32.4 24.7 59.5 57 60.7 27.3 1.1 54.6.2 82 .1 2 .1 4 .2 6 .2H290c36 0 72 .2 108 0 33.4 0 60.5-27 60.5-60.3v-.6-58.5c0-1.4.5-2.9-.4-4.4-1.8.1-2.5 1.6-3.5 2.6-19.4 19.5-42.3 35.2-67.4 46.3-61.5 27.1-124.1 29-187.6 7.2-5.5-2-11.5-2.2-17.2-.8-8.4 2.1-16.7 4.6-25 7.1-24.4 7.6-49.3 11-74.8 6zm72.5-168.5c1.7-2.2 2.6-3.5 3.6-4.8 13.1-16.6 26.2-33.2 39.3-49.9 3.8-4.8 7.6-9.7 10-15.5 2.8-6.6-.2-12.8-7-15.2-3-.9-6.2-1.3-9.4-1.1-17.8-.1-35.7-.1-53.5 0-2.5 0-5 .3-7.4.9-5.6 1.4-9 7.1-7.6 12.8 1 3.8 4 6.8 7.8 7.7 2.4.6 4.9.9 7.4.8 10.8.1 21.7 0 32.5.1 1.2 0 2.7-.8 3.6 1-.9 1.2-1.8 2.4-2.7 3.5-15.5 19.6-30.9 39.3-46.4 58.9-3.8 4.9-5.8 10.3-3 16.3s8.5 7.1 14.3 7.5c4.6.3 9.3.1 14 .1 16.2 0 32.3.1 48.5-.1 8.6-.1 13.2-5.3 12.3-13.3-.7-6.3-5-9.6-13-9.7-14.1-.1-28.2 0-43.3 0zm116-52.6c-12.5-10.9-26.3-11.6-39.8-3.6-16.4 9.6-22.4 25.3-20.4 43.5 1.9 17 9.3 30.9 27.1 36.6 11.1 3.6 21.4 2.3 30.5-5.1 2.4-1.9 3.1-1.5 4.8.6 3.3 4.2 9 5.8 14 3.9 5-1.5 8.3-6.1 8.3-11.3.1-20 .2-40 0-60-.1-8-7.6-13.1-15.4-11.5-4.3.9-6.7 3.8-9.1 6.9zm69.3 37.1c-.4 25 20.3 43.9 46.3 41.3 23.9-2.4 39.4-20.3 38.6-45.6-.8-25-19.4-42.1-44.9-41.3-23.9.7-40.8 19.9-40 45.6zm-8.8-19.9c0-15.7.1-31.3 0-47 0-8-5.1-13-12.7-12.9-7.4.1-12.3 5.1-12.4 12.8-.1 4.7 0 9.3 0 14v79.5c0 6.2 3.8 11.6 8.8 12.9 6.9 1.9 14-2.2 15.8-9.1.3-1.2.5-2.4.4-3.7.2-15.5.1-31 .1-46.5z"></path></svg></div><div id="fcta-zalo-tracking" class="fcta-zalo-text">Chat ngay</div></div></div></a>
+<style>
+@keyframes zoom{0%{transform:scale(.5);opacity:0}50%{opacity:1}to{opacity:0;transform:scale(1)}}@keyframes lucidgenzalo{0% to{transform:rotate(-25deg)}50%{transform:rotate(25deg)}}.jscroll-to-top{bottom:100px}.fcta-zalo-ben-trong-nut svg path{fill:#fff}.fcta-zalo-vi-tri-nut{position:fixed;bottom:34px;right:20px;z-index:999}.fcta-zalo-nen-nut,div.fcta-zalo-mess{box-shadow:0 1px 6px rgba(0,0,0,.06),0 2px 32px rgba(0,0,0,.16)}.fcta-zalo-nen-nut{width:50px;height:50px;text-align:center;color:#fff;background:#0068ff;border-radius:50%;position:relative}.fcta-zalo-nen-nut::after,.fcta-zalo-nen-nut::before{content:"";position:absolute;border:1px solid #0068ff;background:#0068ff80;z-index:-1;left:-20px;right:-20px;top:-20px;bottom:-20px;border-radius:50%;animation:zoom 1.9s linear infinite}.fcta-zalo-nen-nut::after{animation-delay:.4s}.fcta-zalo-ben-trong-nut,.fcta-zalo-ben-trong-nut i{transition:all 1s}.fcta-zalo-ben-trong-nut{position:absolute;text-align:center;width:60%;height:60%;left:10px;bottom:25px;line-height:70px;font-size:25px;opacity:1}.fcta-zalo-ben-trong-nut i{animation:lucidgenzalo 1s linear infinite}.fcta-zalo-nen-nut:hover .fcta-zalo-ben-trong-nut,.fcta-zalo-text{opacity:0}.fcta-zalo-nen-nut:hover i{transform:scale(.5);transition:all .5s ease-in}.fcta-zalo-text a{text-decoration:none;color:#fff}.fcta-zalo-text{position:absolute;top:6px;text-transform:uppercase;font-size:12px;font-weight:700;transform:scaleX(-1);transition:all .5s;line-height:1.5}.fcta-zalo-nen-nut:hover .fcta-zalo-text{transform:scaleX(1);opacity:1}div.fcta-zalo-mess{position:fixed;bottom:39px;right:58px;z-index:99;background:#fff;padding:7px 25px 7px 15px;color:#0068ff;border-radius:50px 0 0 50px;font-weight:700;font-size:20px}.fcta-zalo-mess span{color:#0068ff!important}
+span#fcta-zalo-tracking{font-family:Roboto;line-height:1.5}.fcta-zalo-text{font-family:Roboto}
+</style>
+<script>
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )
+{document.getElementById("linkzalo").href="https://zalo.me/0868292303";}
+</script>
+<!--Tracking Google Tag Manager bằng Click ID chứa fcta-zalo-tracking -->
+
+</body></html>
