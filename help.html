@@ -100,25 +100,24 @@ cursor: pointer;
 			<p>Plugin <a target="_blank" href="https://wordpress.org/plugins/bck-tu-dong-xac-nhan-thanh-toan-chuyen-khoan-ngan-hang/"><u><b>Thanh Toán Quét Mã QR Code Tự Động – MoMo, ViettelPay, VNPay và 40 ngân hàng Việt Nam</b></u></a> cho phép bạn làm được điều này. Tức xử lý giao dịch tự động khi khách chuyển quản qua STK các ngân hàng hoặc qua ví điện tử.</p><br>
 			<h3>Làm sao Plugin có thể xử lý đơn hàng tự động?</h3><br>
 			<p>Nguyên lý hoạt động như sau:</p><br>
-			<p>Plugin sẽ đi kèm một App Android, app này dùng cơ chế đọc Notification hoặc SMS để nhận thông báo chuyển khoản. Hiểu nôm na là khi bạn nhận chuyển khoản, trên điện thoại sẽ có thông báo đẩy notification hoặc tin nhắn sms của ngân hàng với số tiền và nội dung chuyển tiền.</p><br>
-			<p>Plugin sẽ dựa vào nội dung chuyển tiền và số tiền nhận được để biết là thanh toán cho đơn hàng nào, từ đó sẽ xử lý đơn thành công trên website.</p><br>
+			<p>Plugin sẽ đi kèm một App Android, app này dùng cơ chế đọc thông báo (notification) hoặc SMS để check nội dung chuyển khoản. Hiểu nôm na là khi bạn nhận chuyển khoản, trên điện thoại sẽ có thông báo hoặc tin nhắn sms của ngân hàng với số tiền và nội dung chuyển tiền. App BCK sẽ check số tiền và nội dung chuyển tiền để biết thanh toán cho đơn hàng nào, từ đó báo về plugin để xử lý đơn thành công trên website.</p><br>
 			<p>Tải App trên Google Play nha : <a target="_blank" href="https://play.google.com/store/apps/details?id=com.hoangweb.checkpay"><u><b>BCK trên Google Play</b></u></a></p><br>
 			<p><h3>Có cần nhập thông tin nhạy cảm gì vào App không?</h3></p><br>
-			<p>Hoàn toàn không nha bạn. Sau khi cài plugin và app xong, bạn sẽ kết nối website và app BCK với nhau. Mỗi website sẽ có mã QrCode khác nhau khi bạn kích hoạt plugin, vào phần <b>Woocommerce > BCK - Quét Mã QR</b> để cấu hình.</p><br>
+			<p>Không nha bạn. Sau khi cài plugin và app xong, bạn sẽ kết nối website và app BCK với nhau. Mỗi website sẽ có mã QrCode khác nhau khi bạn kích hoạt plugin, vào phần <b>Woocommerce > BCK - Quét Mã QR</b> để cấu hình.</p><br>
 			<p><img width="100%" src="./bck/anh1.png"/></p><br>
 	<p>Tiếp đến, bạn vào cài đặt trên app BCK để quét mã QR và kết nối các website cần xử lý thanh toán tự động.</p><br>
-	<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8PDpf_oscgs8lKF5aso0KJf2149-QEJc9x5PLASM51iUQpkB3smkJxjcB-goV2AM45A7ltrYSZE4I_EsCzp9Wo5nyAhQTb2jLwfsJmIb6sgZowsIh2CY2DiiDinQsz8WLwrHkCeqO20wjl8HzonOuTUml0Reb3OJ69j-disZNaNP3Ta8CPQ_ss6ab2g/s1600/cai_dat_bck.png" width="50%"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjajyR2ZzgDbKHbt1BLj0Mlel6jrRAbaaiIFOGmYufcGsCT-RmEJKWFZsa6fT8wd5q0k7R6cBRGsIJVTqB7NxeDM5WfNL0pUL1UMLwiPZKP8FndInRhOPFK5mT4RZ372IaNm8aHveo_LB6V_E2uKhapd3X0fcaRiLyydQsTVN0eyyl5-VLv7WgnbD__fg/s1600/quet_qr_code_ket_noi_web.png" width="50%"></p><br>
-			<p>Lúc này, App đã kết nối được với web rồi. Từ đây App sẽ nhận thông báo trên Android về biến động nhận tiền từ các app rồi gửi về web để xử lý.<br>À, đừng quên vào <b>Woocommerce > Cài đặt > tab Thanh toán</b> để thêm các số tài khoản ngân hàng của bạn nhé.</p><br>
-			<p>Như vậy khá dễ dùng, an toàn và thuận tiện. Bạn không cần phải nhập thông tin nhạy cảm user/mật khẩu/mã OTP trên app hoặc web.</p><br>
+	<p><img src="./bck/anh2.png" width="50%"><img src="./bck/anh3.png" width="50%"></p><br>
+			<p>Lúc này, App đã kết nối được với các website rồi. Từ đây App sẽ nhận thông báo trên Android về biến động nhận tiền từ các app rồi gửi về web để xử lý.<br>À, đừng quên vào <b>Woocommerce > Cài đặt > tab Thanh toán</b> để bật các ngân hàng và thêm số TK bạn muốn nhận thanh toán nhé.</p><br>
+			<p>Như vậy khá dễ dùng, an toàn và thuận tiện. Bạn không cần phải nhập thông tin nhạy cảm user/mật khẩu/mã OTP trên app hoặc plugin.</p><br>
 			<p><div style="font-size:90%;font-weight:600;color:red;border-left: 2px solid; padding: 10px 20px; background: #eee;">*Góc cảnh báo! Không được cung cấp hay đăng nhập user/pass/OTP cho bất cứ dịch vụ nào (kể cả nhân viên của ngân hàng). Vì khi bên thứ ba liên kết được tài khoản, họ sẽ dùng API lậu và có quyền thực hiện các lệnh trên tài khoản của bạn và hậu quả sẽ khôn lường!</div></p><br>
-			<h3>Tóm tắt yêu cầu để BCK hoạt động</h3><br>
+			<h3>Lưu ý để BCK hoạt động</h3><br>
 			<p><ul>
 	    		<li>App BCK cài cùng với app ngân hàng/ví điện tử trên điện thoại của bạn. Nếu không muốn cài cùng trên điện thoại chính, bạn có thể mua 1 điện thoại khác để cài BCK và lắp sim nhận SMS biến động số dư, lúc này bạn chọn ngân hàng nào cho phép thêm số điện thoại phụ nhận SMS biến động số dư (vd MB, VPBank..)</li>
 	  		<li>Cho phép app BCK đọc SMS hoặc thông báo đẩy.</li>
 			<li>Thông báo đẩy hoặc tin nhắn SMS biến động số dư có chứa nội dung chuyển khoản (là tiền tố bạn cấu hình trên plugin)</li>
 			</ul>
-	<h2 class="title">Tích hợp website tự code</h2>
-			<p>Tài liệu webhook <a target="_blank" href="https://huong-dan-bck.haibasoft.com/webhook"><u>https://huong-dan-bck.haibasoft.com/webhook</u></a></p><br>
+	<br>
+			<p>Hướng dẫn tích hợp Telegram Bot <a target="_blank" href="https://huong-dan-bck.haibasoft.com/telegram"><u>https://huong-dan-bck.haibasoft.com/telegram</u></a></p><br>
 			<p>Liên hệ với chúng tôi để được hỗ trợ</p>
     </div>
     <div class="clear"></div>
